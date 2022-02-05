@@ -16,5 +16,47 @@ const CATALOG = [
         name: 'DumalaSova',
         img: 'img/catalog/DumalaSova.jpg',
         price: 0,
+    },
+    {
+        id: 'el4',
+        name: 'DumalaSova',
+        img: 'img/catalog/DumalaSova.jpg',
+        price: 0,
+    },
+    {
+        id: 'el5',
+        name: 'DumalaSova',
+        img: 'img/catalog/DumalaSova.jpg',
+        price: 0,
+    },
+    {
+        id: 'el6',
+        name: 'DumalaSova',
+        img: 'img/catalog/DumalaSova.jpg',
+        price: 0,
+    },
+    {
+        id: 'el7',
+        name: 'DumalaSova',
+        img: 'img/catalog/DumalaSova.jpg',
+        price: 0,
+    },
+    {
+        id: 'el8',
+        name: 'DumalaSova',
+        img: 'img/catalog/DumalaSova.jpg',
+        price: 0,
+    },
+    {
+        id: 'el9',
+        name: 'DumalaSova',
+        img: 'img/catalog/DumalaSova.jpg',
+        price: 0,
+    },
+    {
+        id: 'el10',
+        name: 'DumalaSova',
+        img: 'img/catalog/DumalaSova.jpg',
+        price: 0,
     }
 ]
