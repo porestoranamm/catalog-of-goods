@@ -1,8 +1,8 @@
 class Products {
 
     render() {
-        CATALOG.forEach((element) => {
-            console.log(element);
+        CATALOG.forEach(({id, name, price, img}) => {
+            console.log(id, name, price, img);
         })
     }
 }
