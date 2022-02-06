@@ -15,7 +15,7 @@ class Products {
         });
     
     const html = `
-        <ul>
+        <ul class="products-container">
             ${htmlCatalog}
         </ul>
     `;
