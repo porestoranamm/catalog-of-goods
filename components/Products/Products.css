@@ -12,7 +12,9 @@
 }
 
 .products-element__img {
-
+    width: 100%;
+    height: 270px;
+    object-fit: contain;
 }
 
 .products-element__price {
@@ -20,5 +22,5 @@
 }
 
 .products-element__btn {
-    
+
 }
