@@ -19,6 +19,8 @@ class Products {
             ${htmlCatalog}
         </ul>
     `;
+
+    ROOT_PRODUCTS.innerHTML = html;
     }
 }
 
