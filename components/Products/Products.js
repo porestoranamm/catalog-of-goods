@@ -5,7 +5,7 @@ class Products {
         
         CATALOG.forEach(({id, name, price, img}) => { 
         htmlCatalog += `
-            <li>
+            <li class ="products-element">
                 <span>${name}</span>
                 <img src="${img}" />
                 <span>${price}</span>
