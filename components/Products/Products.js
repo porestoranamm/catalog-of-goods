@@ -2,8 +2,8 @@ class Products {
 
     render() {
         let htmlCatalog = '';
-        CATALOG.forEach(({id, name, price, img}) => {
         
+        CATALOG.forEach(({id, name, price, img}) => { 
         htmlCatalog += `
             <li>
                 <span>${name}</span>
@@ -12,7 +12,13 @@ class Products {
                 <button>Добавить в корзину</button>
             </li>
         `; 
-        })
+        });
+    
+    const html = `
+        <ul>
+            ${htmlCatalog}
+        </ul>
+    `;
     }
 }
 
