@@ -4,7 +4,7 @@
     grid-gap: 45px;
     width: 80%;
     max-width: 1200px;
-    margin: auto;
+    margin: var(--spacing-large) auto;
 }
 
 .products-element {
