@@ -37,3 +37,7 @@
 .products-element__btn {
     margin-top: var(--spacing-medium);
 }
+
+.products-element__btn_active {
+    
+}
