@@ -31,6 +31,7 @@
 
 .products-element__price {
     margin-top: var(--spacing-medium);
+    color: var(--color-unaccent);
 }
 
 .products-element__btn {
