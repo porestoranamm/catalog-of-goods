@@ -47,5 +47,5 @@
 }
 
 .products-element__btn_active {
-    background-color: green;
+    border: 1px solid transparent;
 }
