@@ -4,10 +4,14 @@ class LocalStorageUtil {
     }
 
     getProducts() {
-
+        const productsLocalStorage = localStorage.getItem(this.keyName);
+        if (productsLocalStorage !== null) {
+            return JSON.parse(productsLocalStorage)
+        }
+        return [];
     }
 
-    putProducts() {
-        
+    putProducts(id) {
+
     }
 }
