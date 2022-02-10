@@ -15,3 +15,8 @@ class LocalStorageUtil {
 
     }
 }
+
+const localStorageUtil = new LocalStorageUtil();
+
+const a = localStorageUtil.getProducts();
+console.log(a)
