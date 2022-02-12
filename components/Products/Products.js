@@ -1,6 +1,7 @@
 class Products {
 
     render() {
+        const productsStore = localStorageUtil.getProducts();
         let htmlCatalog = '';
         
         CATALOG.forEach(({id, name, price, img}) => { 
