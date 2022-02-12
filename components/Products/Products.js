@@ -5,7 +5,16 @@ class Products {
         let htmlCatalog = '';
         
         CATALOG.forEach(({id, name, price, img}) => { 
-        htmlCatalog += `
+            let activeClass = '';
+            let activeText = '';
+
+            if (productsStore.indexOf(id) === -1) {
+                activeText = 'Добавить в корзину';
+            } else {
+                activeText = 'Удалить из корзины';
+            }
+        
+            htmlCatalog += `
             <li class ="products-element">
                 <span class="products-element__name">${name}</span>
                 <img class="products-element__img" src="${img}" />
