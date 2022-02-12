@@ -12,7 +12,8 @@ class LocalStorageUtil {
     }
 
     putProducts(id) {
-
+        let products = this.getProducts();
+        products.push(id);
     }
 }
 
