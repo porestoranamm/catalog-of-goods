@@ -21,7 +21,7 @@ class Products {
                 <span class="products-element__price">
                 ⚡️${price.toLocaleString()} RUB
                 </span>
-                <button class="products-element__btn">Добавить в корзину</button>
+                <button class="products-element__btn">${activeText}</button>
             </li>
         `; 
         });
