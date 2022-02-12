@@ -13,6 +13,8 @@ class LocalStorageUtil {
 
     putProducts(id) {
         let products = this.getProducts();
+        const index = products.indexOf(id);
+
         products.push(id);
         localStorage.setItem(this.keyName, JSON.stringify(products));
     }
@@ -20,4 +22,4 @@ class LocalStorageUtil {
 
 const localStorageUtil = new LocalStorageUtil();
 
-const a = localStorageUtil.getProducts('el1');
+localStorageUtil.putProducts('el1');
