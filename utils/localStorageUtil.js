@@ -15,6 +15,12 @@ class LocalStorageUtil {
         let products = this.getProducts();
         const index = products.indexOf(id);
 
+        if (index === -1) {
+            products.push(id);
+        } else {
+            products.splice(index, 1);
+        }
+
         products.push(id);
         localStorage.setItem(this.keyName, JSON.stringify(products));
     }
