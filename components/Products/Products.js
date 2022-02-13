@@ -1,4 +1,9 @@
 class Products {
+    constructor() {
+        this.classNameActive = 'products-element__btn_active';
+        this.labelAdd = 'Добавить в корзину';
+        this.labelRemove = 'Удалить из корзины';
+    }
 
     render() {
         const productsStore = localStorageUtil.getProducts();
@@ -9,10 +14,10 @@ class Products {
             let activeText = '';
 
             if (productsStore.indexOf(id) === -1) {
-                activeText = 'Добавить в корзину';
+                activeText = this.labelAdd;
             } else {
-                activeClass = ' products-element__btn';
-                activeText = 'Удалить из корзины';
+                activeClass = ''+this.classNameActive;
+                activeText = this.labelRemove;
             }
         
             htmlCatalog += `
