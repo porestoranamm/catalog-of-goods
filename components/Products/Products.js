@@ -5,6 +5,10 @@ class Products {
         this.labelRemove = 'Удалить из корзины';
     }
 
+    handleSetLocationStorage () {
+
+    }
+
     render() {
         const productsStore = localStorageUtil.getProducts();
         let htmlCatalog = '';
@@ -27,7 +31,9 @@ class Products {
                 <span class="products-element__price">
                 ⚡️${price.toLocaleString()} RUB
                 </span>
-                <button class="products-element__btn${activeClass}">${activeText}</button>
+                <button class="products-element__btn${activeClass}" onclick="productsPage.handleSetLocationStorage();">
+                ${activeText}
+                </button>
             </li>
         `; 
         });
