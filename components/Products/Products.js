@@ -11,7 +11,7 @@ class Products {
             if (productsStore.indexOf(id) === -1) {
                 activeText = 'Добавить в корзину';
             } else {
-                activeClass = 'products-element__btn';
+                activeClass = ' products-element__btn';
                 activeText = 'Удалить из корзины';
             }
         
