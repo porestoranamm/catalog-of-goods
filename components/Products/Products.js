@@ -6,7 +6,7 @@ class Products {
     }
 
     handleSetLocationStorage (element, id) {
-        localStorageUtil.putProducts(id);
+        const result = localStorageUtil.putProducts(id);
     }
 
     render() {
