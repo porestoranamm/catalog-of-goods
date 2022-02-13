@@ -11,6 +11,7 @@ class Products {
             if (productsStore.indexOf(id) === -1) {
                 activeText = 'Добавить в корзину';
             } else {
+                activeClass = 'products-element__btn';
                 activeText = 'Удалить из корзины';
             }
         
@@ -21,7 +22,7 @@ class Products {
                 <span class="products-element__price">
                 ⚡️${price.toLocaleString()} RUB
                 </span>
-                <button class="products-element__btn">${activeText}</button>
+                <button class="products-element__btn${activeClass}">${activeText}</button>
             </li>
         `; 
         });
