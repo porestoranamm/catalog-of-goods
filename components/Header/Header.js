@@ -7,6 +7,8 @@ class Header {
             </div>
         
         `;
+
+        ROOT_HEADER.innerHTML = html;
     }
 
 }
