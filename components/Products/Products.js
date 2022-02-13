@@ -6,7 +6,15 @@ class Products {
     }
 
     handleSetLocationStorage (element, id) {
-        const result = localStorageUtil.putProducts(id);
+        const {pushProducts, products} = localStorageUtil.putProducts(id);
+        
+        if (pushProducts) {
+            element.classList.add(this.classNameActive);
+            element.innerHTML = this.labelRemove;
+        } else {
+            element.classList.remove(this.classNameActive);
+            element.innerHTML = this.labelAdd;
+        }
     }
 
     render() {
