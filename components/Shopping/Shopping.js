@@ -5,6 +5,9 @@ class Shopping {
         const productsStore = localStorageUtil.getProducts();
         let htmlCatalog = '';
 
+        CATALOG.forEach(({id, name, price, img}) => {
+
+        });
 
         const html = ``;
         ROOT_SHOPPING.innerHTML = html;
