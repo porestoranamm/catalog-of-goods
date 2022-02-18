@@ -9,7 +9,7 @@ class Shopping {
             if(productsStore.indexOf(id) !== -1) {
                 htmlCatalog += `
                 <tr>
-                    <td></td>
+                    <td>⚡️ ${name}</td>
                     <td></td>
                 </tr>
                 `;
