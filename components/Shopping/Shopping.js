@@ -10,7 +10,7 @@ class Shopping {
                 htmlCatalog += `
                 <tr>
                     <td>⚡️ ${name}</td>
-                    <td>${price.toLocaleString()} USD()</td>
+                    <td>⚡️ ${price.toLocaleString()} USD()</td>
                 </tr>
                 `;
             }
