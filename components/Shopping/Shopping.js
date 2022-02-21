@@ -19,7 +19,7 @@ class Shopping {
         const html = `
             <div>
                 <table>
-                
+                    ${htmlCatalog}
                 </table>
             </div>
         `;
