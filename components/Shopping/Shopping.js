@@ -10,13 +10,19 @@ class Shopping {
                 htmlCatalog += `
                 <tr>
                     <td>⚡️ ${name}</td>
-                    <td>⚡️ ${price.toLocaleString()} USD()</td>
+                    <td>${price.toLocaleString()} USD()</td>
                 </tr>
                 `;
             }
         });
 
-        const html = ``;
+        const html = `
+            <div>
+                <table>
+                
+                </table>
+            </div>
+        `;
         ROOT_SHOPPING.innerHTML = html;
     }
 }
