@@ -17,7 +17,7 @@ class Shopping {
         });
 
         const html = `
-            <div>
+            <div class="shopping-container">
                 <table>
                     ${htmlCatalog}
                 </table>
