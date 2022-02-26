@@ -20,4 +20,5 @@
 .shopping-element__price {
     padding: var(--spacing-medium);
     color: var(--color-unaccent);
+    padding: var(--spacing-medium);
 }
