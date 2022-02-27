@@ -20,7 +20,8 @@ class Shopping {
 
         const html = `
             <div class="shopping-container">
-                <table>
+            <div class="shopping__close" onclick=""></div>    
+            <table>
                     ${htmlCatalog}
                 <tr>
                     <td class="shopping-element__name">⚡️ ${name}</td>
