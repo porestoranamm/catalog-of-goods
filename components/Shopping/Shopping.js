@@ -4,6 +4,7 @@ class Shopping {
 
         const productsStore = localStorageUtil.getProducts();
         let htmlCatalog = '';
+        let sumCatalog = '';
 
         CATALOG.forEach(({id, name, price,}) => {
             if(productsStore.indexOf(id) !== -1) {
