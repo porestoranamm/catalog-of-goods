@@ -4,7 +4,7 @@ class Shopping {
 
         const productsStore = localStorageUtil.getProducts();
         let htmlCatalog = '';
-        let sumCatalog = '';
+        let sumCatalog = 0;
 
         CATALOG.forEach(({id, name, price,}) => {
             if(productsStore.indexOf(id) !== -1) {
@@ -14,6 +14,7 @@ class Shopping {
                     <td class="shopping-element__price">${price.toLocaleString()} USD()</td>
                 </tr>
                 `;
+                sumCatalog += price;
             }
         });
 
