@@ -23,7 +23,7 @@
 }
 
 .shopping__close {
-    position: absolute;
+    position: fixed;
     width: 35px;
     height: 35px;
     top: 20px;
