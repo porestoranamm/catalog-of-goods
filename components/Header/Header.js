@@ -1,4 +1,7 @@
 class Header {
+    handlerOpenShoppingPage() {
+        
+    }
 
     render(count) {
         const html = `
