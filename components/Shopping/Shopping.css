@@ -30,5 +30,8 @@
     right: 20px;
     background-image: url(img/close.png);
     color: var(--color-white);
-    background-repeat: no-repeat ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    cursor: pointer;
 }
