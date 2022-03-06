@@ -30,4 +30,5 @@
     right: 20px;
     background-image: url(img/close.png);
     color: var(--color-white);
+    background-repeat: no-repeat ;
 }
