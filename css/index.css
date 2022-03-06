@@ -3,6 +3,7 @@
     --color-white: #fff;
     --color-unaccent: #808080;
     --color-medium: #e8e8e8;
+    --color-dark: #a1a1a1;
 
     --spacing-small: 11px;
     --spacing-medium: 15px;
@@ -15,6 +16,11 @@
         0 6px 24px 30px rgba(33,37,41,.04),
         0 8px 10px -5px rgba(33,37,41,.1);
 }
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb
 
 * {
     box-sizing: border-box;
