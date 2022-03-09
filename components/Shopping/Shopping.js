@@ -28,10 +28,10 @@ class Shopping {
                     ${htmlCatalog}
                 <tr>
                     <td class="shopping-element__name">⚡️ ${name}</td>
-                    <td class="shopping-element__price">${price.toLocaleString()} USD()</td>
+                    <td class="shopping-element__name">⚡️ ${name}</td>
                 </tr>
                 </table>
-            </div>
+            </div>4
         `;
         ROOT_SHOPPING.innerHTML = html;
     }
