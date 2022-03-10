@@ -14,7 +14,7 @@ class Shopping {
                 htmlCatalog += `
                 <tr>
                     <td class="shopping-element__name">💥 Сумма:</td>
-                    <td class="shopping-element__price">${sumCatalog.toLocaleString()} USD()</td>
+                    <td class="shopping-element__price">${price.toLocaleString()} USD()</td>
                 </tr>
                 `;
                 sumCatalog += price;
@@ -28,13 +28,13 @@ class Shopping {
                     ${htmlCatalog}
                 <tr>
                     <td class="shopping-element__name">⚡️ ${name}</td>
-                    <td class="shopping-element__price">${price.toLocaleString()} USD</td>
+                    <td class="shopping-element__price">${sumCatalog.toLocaleString()} USD</td>
                 </tr>
                 </table>
             </div>4
         `;
         ROOT_SHOPPING.innerHTML = html;
     }
-}
+};
 
 const shoppingPage = new Shopping();
