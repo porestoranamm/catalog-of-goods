@@ -28,7 +28,7 @@ class Shopping {
                     ${htmlCatalog}
                 <tr>
                     <td class="shopping-element__name">⚡️ ${name}</td>
-                    <td class="shopping-element__name">⚡️ ${name}</td>
+                    <td class="shopping-element__price">${price.toLocaleString()} USD</td>
                 </tr>
                 </table>
             </div>4
