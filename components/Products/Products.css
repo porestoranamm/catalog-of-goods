@@ -19,6 +19,7 @@
 
 .products-element__name {
     margin-bottom: auto;
+    text-transform: uppercase;
     font-weight: bold;
 }
 
