@@ -8,3 +8,5 @@ function render() {
 }
 
 render();
+
+let CATALOG = [];
