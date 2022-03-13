@@ -7,6 +7,7 @@ function render() {
 
 }
 
+let CATALOG = [];
+
 render();
 
-let CATALOG = [];
