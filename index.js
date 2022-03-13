@@ -9,8 +9,6 @@ function render() {
 
 let CATALOG = [];
 
-render();
-
 fetch('server/catalog.json')
     .then(res => res.json())
     .then(body => {
