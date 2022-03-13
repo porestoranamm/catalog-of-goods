@@ -7,6 +7,8 @@ function render() {
 
 }
 
+spinnerPage.render()
+
 let CATALOG = [];
 
 fetch('server/catalog.json')
