@@ -30,7 +30,7 @@ class Products {
             if (productsStore.indexOf(id) === -1) {
                 activeText = this.labelAdd;
             } else {
-                activeClass = ''+this.classNameActive;
+                activeClass = ' '+this.classNameActive;
                 activeText = this.labelRemove;
             }
         
