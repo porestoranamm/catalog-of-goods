@@ -11,3 +11,4 @@ let CATALOG = [];
 
 render();
 
+fetch('server/catalog.json')
