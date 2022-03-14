@@ -2,8 +2,8 @@ class Spinner {
 
     render() {
         const html = `
-            <div>
-                <img src="components/Spinner/img/spinner.svg" />
+            <div class="spinner-container">
+                <img class="spinner__img" src="components/Spinner/img/spinner.svg" />
             </div>
         `;
 
