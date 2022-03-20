@@ -6,7 +6,8 @@ class Header {
     render(count) {
         const html = `
             <div class="header-container">
-                <div class="header-counter" onclick="headerPage.handlerOpenShoppingPage();">
+            <div class="header-logo">Memes Shop</div>    
+            <div class="header-counter" onclick="headerPage.handlerOpenShoppingPage();">
                 🔥 ${count}
                 </div>
             </div>
