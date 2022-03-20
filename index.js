@@ -15,7 +15,7 @@ fetch('server/catalog.json')
     .then(body => {
         CATALOG = body;
         
-        setTimeout(function() {
+        setTimeout(() => {
         spinnerPage.handleClear();
         render();
     }, 1000);
