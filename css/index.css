@@ -1,9 +1,9 @@
 :root {
     --color-light:#242582;
-    --color-white: #fff;
-    --color-unaccent: #808080;
-    --color-medium: #e8e8e8;
-    --color-dark: #a1a1a1;
+    --color-white: #15db95;
+    --color-unaccent: #fff;
+    --color-medium: #242582;
+    --color-dark: #fff;
     --color-error-light: #f25b6b;
     --color-error-dark: #d65c5c;
 
@@ -12,7 +12,7 @@
     --spacing-large: 30px;
 
     --border-radius: 3px;
-    --line-gradient: linear-gradient(to right, #e2f87c, #d6f567, #c8f151, #a8eb12);
+    --line-gradient: linear-gradient(to right, #f64c72, #f64c72, #f64c72, #f64c72);
     --box-shadow:
         0 16px 24px 2px rgba(33,37,41,.02),
         0 6px 24px 30px rgba(33,37,41,.04),
