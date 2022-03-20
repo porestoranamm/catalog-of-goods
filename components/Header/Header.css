@@ -3,6 +3,7 @@
     height: 50px;
     padding: var(--spacing-small);
     background-color: var(--color-medium);
+    color:#f25b6b;
 }
 
 .header-counter {
@@ -10,4 +11,9 @@
     padding-right: var(--spacing-small);
     font-weight: bold;
     cursor: pointer;
+}
+
+.header-logo {
+    padding-left: var(--spacing-small);
+    color: #f25b6b;
 }
