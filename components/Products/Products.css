@@ -21,6 +21,7 @@
     margin-bottom: auto;
     text-transform: uppercase;
     font-weight: bold;
+    color: #f25b6b;
 }
 
 .products-element__img {
@@ -46,9 +47,11 @@
     font-family: inherit;
     font-size: inherit;
     box-sizing: border-box;
+    background-color: #f25b6b;
 }
 
 .products-element__btn_active {
     border: 1px solid transparent;
     background-image: var(--line-gradient);
+    color: #f25b6b;
 }
