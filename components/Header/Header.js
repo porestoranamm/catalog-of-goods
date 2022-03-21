@@ -8,7 +8,7 @@ class Header {
             <div class="header-container">
             <div class="header-logo">Memes Shop</div>    
             <div class="header-counter" onclick="headerPage.handlerOpenShoppingPage();">
-                🔥 ${count}
+            🗑 ${count}
                 </div>
             </div>
         
