@@ -63,8 +63,8 @@
 .header-search button.icon{
     -webkit-border-top-right-radius: 5px;
     -webkit-border-bottom-right-radius: 5px;
-    -moz-border-radius-topright: 5px;
-    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-top-right: 5px;
+    -moz-border-radius-bottom-right: 5px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 
