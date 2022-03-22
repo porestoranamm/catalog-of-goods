@@ -5,6 +5,7 @@
     width: 80%;
     max-width: 1200px;
     margin: var(--spacing-large) auto;
+    box-sizing: 600px;
 }
 
 .products-element {
