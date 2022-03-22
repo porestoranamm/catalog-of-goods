@@ -24,5 +24,8 @@
 }
 
 .header-search {
-    
+    overflow: hidden;
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
 }
