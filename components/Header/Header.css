@@ -11,6 +11,7 @@
     padding-right: var(--spacing-small);
     font-weight: bold;
     cursor: pointer;
+    font-size: x-large;
 }
 
 .header-logo {
