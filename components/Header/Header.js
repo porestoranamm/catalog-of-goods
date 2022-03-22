@@ -7,10 +7,13 @@ class Header {
         const html = `
             <div class="header-container">
             <div class="header-logo">Memes Shop</div> 
-            <div class="box-search">
-            <div class="header-search"><input type="search" id="search" placeholder="Поиск..." />
-            <button class="icon"><i class="fa fa-search"></i></button></div>
-            </div>   
+            <div class="cntr">
+            <div class="cntr-innr">
+            <label class="search" for="inpt_search">
+            <input id="inpt_search" type="text" />
+            </label>
+            <p>Hover to see the magic.</p>
+            </div>
             <div class="header-counter" onclick="headerPage.handlerOpenShoppingPage();">
             🗑 ${count}
                 </div>
