@@ -32,38 +32,40 @@
     border-radius: 25px;
     transition: all 200ms ease;
     cursor: text;
+}
+
+
+input {
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    font-size: 15px;
+    color: inherit;
+    background: transparent;
+    outline-width: 0px;
+}
+
+.search:after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 20px;
+    right: -5px;
+    top: 21px;
+    background: #ffffff;
+    border-radius: 3px;
+    transform: rotate(-45deg);
+    transition: all 200ms ease;
+}
+
+.active,
+.active:hover {
+    width: 200px;
+    margin-right: 0px;
     
-    &:after {
-        content: "";
-        position: absolute;
-        width: 3px;
-        height: 20px;
-        right: -5px;
-        top: 21px;
-        background: @icn-color;
-        border-radius: 3px;
-        transform: rotate(-45deg);
-        transition: all 200ms ease;
-    }
-    
-    &.active,
-    :hover {
-        width: 200px;
-        margin-right: 0px;
-        
-        &:after {
-            height: 0px;    
-        }
-    }
-    
-    input {
-        width: 100%;
-        border: none;
-        box-sizing: border-box;
-        font-family: Helvetica;
-        font-size: 15px;
-        color: inherit;
-        background: transparent;
-        outline-width: 0px;
-    }
+}
+
+.active:after {
+    height: 0px;    
 }
