@@ -7,10 +7,6 @@ class Header {
         const html = `
             <div class="header-container">
             <div class="header-logo">Memes Shop</div> 
-            <form id="content">
-            <input type="text" name="input" class="input" id="search-input">
-            <button type="reset" class="search" id="search-btn"></button>
-            </form>
             <div class="header-counter" onclick="headerPage.handlerOpenShoppingPage();">
             🗑 ${count}
                 </div>
