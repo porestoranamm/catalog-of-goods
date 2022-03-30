@@ -19,3 +19,8 @@
     color: #f25b6b;
 }
 
+.header-search {
+    padding-right: var(--spacing-small);
+    margin-left: auto;
+    
+}
