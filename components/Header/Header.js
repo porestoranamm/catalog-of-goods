@@ -7,9 +7,9 @@ class Header {
         const html = `
             <div class="header-container">
             <div class="header-logo">Memes Shop</div> 
-            <form>
-            <div class="header-search">
-            <input type="search" id="mySearch" name="q">
+            <form> 
+            <div>
+            <input class="header-search" type="search" id="mySearch" name="q">
             <button>Search</button>
             </div>
             </form>
