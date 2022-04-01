@@ -8,7 +8,7 @@ class Header {
             <div class="header-container">
             <div class="header-logo">Memes Shop</div> 
             <form>
-            <div>
+            <div class="header-search">
             <input type="search" id="mySearch" name="q">
             <button>Search</button>
             </div>
