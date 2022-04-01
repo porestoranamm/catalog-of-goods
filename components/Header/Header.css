@@ -21,6 +21,8 @@
 
 .header-search {
     padding-right: var(--spacing-small);
-    margin-left: auto;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: #876dd3;
     
 }
