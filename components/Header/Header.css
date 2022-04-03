@@ -23,6 +23,11 @@
     padding-right: var(--spacing-small);
     margin-left: 10px;
     border-radius: 5px;
-    background-color: #876dd3;
-    
+    background-color: #efecf7;
+
+}
+
+.search-btn {
+    border-radius: 5px;
+    background-color: efecf7;
 }
