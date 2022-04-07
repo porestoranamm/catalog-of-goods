@@ -29,5 +29,6 @@
 
 .search-btn {
     border-radius: 5px;
-    background-color: efecf7;
+    background-color: #efecf7;
+    font-size: medium;
 }
