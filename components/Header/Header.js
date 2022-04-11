@@ -10,7 +10,7 @@ class Header {
             <form> 
             <div>
             <input class="header-search" type="search" id="mySearch" name="q">
-            <button>Search</button>
+            <button class="search-btn">Search</button>
             </div>
             </form>
             <div class="header-counter" onclick="headerPage.handlerOpenShoppingPage();">
