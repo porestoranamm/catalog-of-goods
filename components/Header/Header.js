@@ -10,7 +10,9 @@ class Header {
             <form> 
             <div class="search-box">
             <input class="header-search" type="search" id="mySearch" name="q">
-            <button class="search-btn">Search</button>
+            <a class="search-btn" href="#">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
             </div>
             </form>
             <div class="header-counter" onclick="headerPage.handlerOpenShoppingPage();">
