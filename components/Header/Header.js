@@ -9,9 +9,10 @@ class Header {
             <div class="header-logo">Memes Shop</div> 
             <form> 
             <div class="search-box">
-            <input class="header-search" type="search" id="mySearch" name="q">
+            <input class="search-txt" type="text"  name="" placeholder="
+            Type to search">
             <a class="search-btn" href="#">
-            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-magnifying-glass-location"></i>
             </a>
             </div>
             </form>
